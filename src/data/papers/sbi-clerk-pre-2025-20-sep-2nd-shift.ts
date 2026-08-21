@@ -38,43 +38,15 @@ const cheesecakeTableFigure: QuestionFigure = {
 }
 
 const studentsGroupedFigure: QuestionFigure = {
-  "type": "grouped-bar",
-  "title": "Total students (girls + boys) in 2018 and 2019",
-  "yLabel": "Students",
-  "series": [
-    "2018",
-    "2019"
+  type: 'table',
+  title: 'Total students (girls + boys) in 2018 and 2019',
+  headers: ['School', '2018', '2019'],
+  rows: [
+    ['A', 120, 110],
+    ['B', 115, 140],
+    ['C', 100, 135],
+    ['D', 120, 120],
   ],
-  "groups": [
-    {
-      "label": "A",
-      "values": [
-        120,
-        110
-      ]
-    },
-    {
-      "label": "B",
-      "values": [
-        115,
-        140
-      ]
-    },
-    {
-      "label": "C",
-      "values": [
-        100,
-        135
-      ]
-    },
-    {
-      "label": "D",
-      "values": [
-        120,
-        120
-      ]
-    }
-  ]
 }
 export const sbiClerkPre202520SepShift2: Paper = {
   id: "sbi-clerk-pre-2025-20-sep-2nd-shift",
