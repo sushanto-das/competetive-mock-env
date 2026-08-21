@@ -12,36 +12,14 @@ import { q } from './helpers'
  */
 
 const runsGroupedFigure: QuestionFigure = {
-  "type": "grouped-bar",
-  "title": "Runs scored by X and Y (Monday–Wednesday)",
-  "yLabel": "Runs",
-  "series": [
-    "X",
-    "Y"
+  type: 'table',
+  title: 'Runs scored by X and Y (Monday–Wednesday)',
+  headers: ['Day', 'X', 'Y'],
+  rows: [
+    ['Monday', 375, 300],
+    ['Tuesday', 250, 175],
+    ['Wednesday', 400, 325],
   ],
-  "groups": [
-    {
-      "label": "Monday",
-      "values": [
-        375,
-        300
-      ]
-    },
-    {
-      "label": "Tuesday",
-      "values": [
-        250,
-        175
-      ]
-    },
-    {
-      "label": "Wednesday",
-      "values": [
-        400,
-        325
-      ]
-    }
-  ]
 }
 
 const booksTableFigure: QuestionFigure = {
