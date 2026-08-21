@@ -1,5 +1,4 @@
 import type { Paper } from '../../types/exam'
-import { ibpsClerkMains2025Nov29Shift1 } from './ibps-clerk-mains-2025-29-nov-shift-1'
 import { ibpsClerkPre2025Oct4Shift1 } from './ibps-clerk-pre-2025-4-oct-1st-shift'
 import { ibpsClerkPre2025Oct4Shift2 } from './ibps-clerk-pre-2025-4-oct-2nd-shift'
 import { sbiClerkPre202520SepShift1Bengali } from './sbi-clerk-pre-2025-20-sep-1st-shift-bengali'
@@ -22,5 +21,4 @@ export const papers: Paper[] = [
   sbiClerkPre202521SepShift1,
   ibpsClerkPre2025Oct4Shift1,
   ibpsClerkPre2025Oct4Shift2,
-  ibpsClerkMains2025Nov29Shift1,
 ]
